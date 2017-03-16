@@ -1,0 +1,30 @@
+{
+  "name": "zindereactivestart",
+  "version": "1.0.0",
+  "description": "zinde reactive learn",
+  
+     "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zinderud/ReactiveStart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zinderud/ReactiveStart/issues"
+  },
+  "homepage": "https://github.com/zinderud/ReactiveStart#readme",
+  "dependencies": {
+    "rxjs": "^5.2.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.0.1",
+    "typescript": "^2.2.1",
+    "typings": "^2.1.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
+} 
