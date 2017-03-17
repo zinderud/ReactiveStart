@@ -3,7 +3,7 @@ import { Observable } from 'rxjs';
 export var MouseEventObserve = Observable.fromEvent(document, "mousemove");
 
 MouseEventObserve.subscribe(
-    e => console.log("mouse location: x ", e.layerX, "mouse location: y ", e.layerY)
+    e => console.log("mouse location: x ", e, "mouse location: y ", e)
 )
 
 export class loadJson {
